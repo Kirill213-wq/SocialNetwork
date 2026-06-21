@@ -1,0 +1,66 @@
+.side_panel{
+    gap: 0.5vh;
+}
+
+.user_profile_div{
+    box-sizing: border-box;
+    width: 100%;
+    height: clamp(1px,32vh,271px);
+    display: flex;
+    flex-direction: column;
+    border-width: 0.2vh;
+    border-radius: 1vh;
+    border-style: solid;
+    border-color:#D8D3DE ;
+    background-color:#ffffff ;
+    padding-top: clamp(1px,2vh,15px);
+    padding-bottom: clamp(1px,2vh,15px);
+}
+
+.side_panel_text{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 5vh;
+}
+
+
+
+
+
+.name{
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.info_div{
+    display: flex;
+    flex-direction: row;
+}
+
+.info_slot_div{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_number{
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+.info_text{
+    color: #81818D;
+}
+
+#center_info_slot{
+    border-left: 0.2vh solid #CDCED2;
+    border-right: 0.2vh solid #CDCED2;
+
+}
+#load-post-line {
+    height: 1px;
+}
